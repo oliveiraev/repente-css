@@ -1,0 +1,22 @@
+{
+  "name": "repente-css",
+  "version": "0.0.1-dev",
+  "description": "Menus em CSS Propostos no Fórum iMasters",
+  "main": "README.md",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/oliveiraev/repente-css.git"
+  },
+  "keywords": [
+    "css",
+    "webstandards",
+    "imasters"
+  ],
+  "author": "Evandro Oliveira <evandrofranco [at] gmail [dot] com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "18ca64875a65fb826b617b715cf281a3b57f7166",
+}
