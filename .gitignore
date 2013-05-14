@@ -1,4 +1,6 @@
 /.idea
+/components
 node_modules
+lib
 
 *.log
