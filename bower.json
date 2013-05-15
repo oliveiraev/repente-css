@@ -1,0 +1,13 @@
+{
+  "name": "repente-css",
+  "version": "0.0.1-dev",
+  "main": "README.md",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ],
+  "dependencies": {
+    "modernizr": "~2.6.2"
+  }
+}
