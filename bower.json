@@ -1,13 +1,19 @@
 {
   "name": "repente-css",
   "version": "0.0.1-dev",
-  "main": "README.md",
+  "main": "src/**",
   "ignore": [
     "**/.*",
     "node_modules",
     "components"
   ],
   "dependencies": {
-    "modernizr": "~2.6.2"
+    "modernizr": "~2.6.2",
+    "normalize-css": "necolas/normalize.css#~2.1.2"
+  },
+  "exportsOverride": {
+      "modernizr": {
+          "": "modernizr.js"
+      }
   }
 }
