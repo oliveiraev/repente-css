@@ -2,7 +2,7 @@
   "name": "repente-css",
   "version": "0.0.1-dev",
   "description": "Menus em CSS Propostos no Fórum iMasters",
-  "main": "README.md",
+  "main": "src/**",
   "scripts": {
     "test": "test"
   },
@@ -27,6 +27,7 @@
     "grunt-contrib-uglify": "~0.2.0",
     "grunt-contrib-csslint": "~0.1.2",
     "grunt-contrib-cssmin": "~0.6.0",
-    "grunt-contrib-clean": "~0.4.1"
+    "grunt-contrib-clean": "~0.4.1",
+    "grunt-contrib-watch": "~0.4.3"
   }
 }
