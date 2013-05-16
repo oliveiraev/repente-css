@@ -4,25 +4,6 @@ module.exports = function(grunt) {
     banner: '/*! <%= pkg.name %>-<%= pkg.version %>' +
       '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
       ' Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %> */\n',
-    jshint: {
-      options: {
-        curly: true,
-        eqeqeq: true,
-        immed: true,
-        latedef: true,
-        newcap: true,
-        noarg: true,
-        sub: true,
-        undef: true,
-        unused: true,
-        boss: true,
-        eqnull: true,
-        browser: true
-      },
-      lib_test: {
-        src: ['src/**/*.js', 'test/**/*.js']
-      }
-    },
     uglify: {
         modernizr: {
             files: {
@@ -71,10 +52,8 @@ module.exports = function(grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
-  grunt.loadNpmTasks('grunt-contrib-csslint');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-bower-task');
@@ -83,6 +62,8 @@ module.exports = function(grunt) {
     'setup',
     [
         'bower',
+        'uglify',
+        'cssmin',
         'clean:modernizr',
         'clean:normalize'
     ]
