@@ -20,11 +20,11 @@
   "readmeFilename": "README.md",
   "gitHead": "18ca64875a65fb826b617b715cf281a3b57f7166",
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-bower-task": "~0.2.3",
-    "grunt-contrib-uglify": "~0.2.0",
-    "grunt-contrib-cssmin": "~0.6.0",
-    "grunt-contrib-clean": "~0.4.1",
-    "grunt-contrib-watch": "~0.4.3"
+    "grunt": "~1.0.4",
+    "grunt-bower-task": "~0.5.0",
+    "grunt-contrib-uglify": "~4.0.1",
+    "grunt-contrib-cssmin": "~3.0.0",
+    "grunt-contrib-clean": "~2.0.0",
+    "grunt-contrib-watch": "~1.1.0"
   }
 }
